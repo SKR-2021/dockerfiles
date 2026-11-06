@@ -1,5 +1,9 @@
 FROM almalinux:9
-LABEL Role="devops_eng" \
-      Position="snr_devops_eng" \
-      author="karunakar"
 
+LABEL role="devops" \
+      position="snr-devops-engineer" \
+      maintainer="Karunakar" \
+      author="karunakar@gmail.com"
+      team="cloud-devops" \
+      environment="development" \
+      project="docker-learning"
