@@ -1,4 +1,5 @@
 FROM almalinux:9
-LABEL Role="DEVOPS_Eng" \
-      Position="Snr_DevOps_Eng"
+LABEL Role="devops_eng" \
+      Position="snr_devops_eng" \
+      author="karunakar"
 
