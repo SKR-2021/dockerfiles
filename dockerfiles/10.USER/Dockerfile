@@ -3,7 +3,6 @@ RUN dnf install nginx -y
 RUN useradd karunakar
 
 USER karunakar
-# CMD ["nginx", "-g", "daemon off;"] 
 CMD ["sleep", "1000"]
 
 # CMD           =  Defines the default command to execute when the container starts.
