@@ -1,10 +1,10 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-# RUN useradd karunakar
+RUN useradd karunakar
 
-# USER karunakar
-CMD ["nginx", "-g", "daemon off;"] 
-
+USER karunakar
+# CMD ["nginx", "-g", "daemon off;"] 
+CMD ["sleep", "1000"]
 
 # CMD           =  Defines the default command to execute when the container starts.
 # nginx	        =  Starts the Nginx web server.
