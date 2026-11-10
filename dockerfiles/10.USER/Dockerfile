@@ -1,8 +1,8 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-RUN useradd karunakar
+# RUN useradd karunakar
 
-USER karunakar
+# USER karunakar
 CMD ["nginx", "-g", "daemon off;"] 
 
 
