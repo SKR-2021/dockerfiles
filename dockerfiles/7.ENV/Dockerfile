@@ -3,3 +3,5 @@ FROM almalinux:9
 ENV PROJECT="DEVOPS" \
     ENVIRONMENT="DEVELOPMENT" \
     PLATFORM="AWS" 
+
+CMD ["sleep", "10"]
