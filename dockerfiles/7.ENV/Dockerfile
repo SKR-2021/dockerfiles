@@ -4,4 +4,4 @@ ENV PROJECT="DEVOPS" \
     ENVIRONMENT="DEVELOPMENT" \
     PLATFORM="AWS" 
 
-CMD ["sleep", "10"]
+CMD ["sleep", "1000"]
