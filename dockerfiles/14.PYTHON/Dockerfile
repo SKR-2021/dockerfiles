@@ -7,3 +7,5 @@ RUN mkdir -p /app/src
 ONBUILD ADD . /app/src
 
 ONBUILD RUN python3 -m compileall -q /app/src
+
+CMD ["sleep", "1000"]
