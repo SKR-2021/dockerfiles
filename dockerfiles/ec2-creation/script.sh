@@ -19,4 +19,3 @@ sudo usermod -aG docker ec2-user
 
 # sudo lvextend -L +10G /dev/mapper/RootVG-varVol
 # sudo xfs_growfs /var
-
